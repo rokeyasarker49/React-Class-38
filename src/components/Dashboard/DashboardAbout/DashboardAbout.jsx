@@ -18,3 +18,6 @@ const DashboardAbout = () => {
             
         </div>
     );
+};
+
+export default DashboardAbout;
