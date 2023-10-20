@@ -4,13 +4,13 @@ import Dashboard from "../components/Dashboard/Dashboard";
 import DashboardAbout from "../components/Dashboard/DashboardAbout/DashboardAbout";
 import DashboardHome from "../components/Dashboard/DashboardHome/DashboardHome";
 import DashboardPortfolio from "../components/Dashboard/DashboardPortfolio/DashboardPortfolio";
-import DashboardContact from "../components/Dashboard/DeshboardContact/DashboardContact";
+import DashboardContact from "../components/Dashboard/DashboardContact/DashboardContact";
 import Home from "../components/Home/Home";
 import Nothing from "../components/Nothing/Nothing";
 import Product from "../components/Product/Product";
 import {createBrowserRouter,} from "react-router-dom";
 
-const Router = createBrowserRouter([
+const router = createBrowserRouter([
     {
       path: "/",
       element: <App />,
@@ -70,4 +70,4 @@ const Router = createBrowserRouter([
   
 ]);
 
-export default Router;
+export default router;

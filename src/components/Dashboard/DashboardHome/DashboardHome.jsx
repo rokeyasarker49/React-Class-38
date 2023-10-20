@@ -5,7 +5,7 @@ const DashboardHome = () => {
 
             <div className="main-body">
                 <div className="promo_card">
-                    <h1>Welcome to ShuvoStudio</h1>
+                    <h1>Welcome to Rokeya's World</h1>
                     <span>Mauris Mattis Auctor Cursus. Phasellus Tellus Tellus, Imperdiet Ut Imperdiet Eu, Iaculis A Sem.</span>
                     <button className='btns fs-6 py-1 ms-3'>Learn More</button>
                 </div>
