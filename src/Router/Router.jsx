@@ -6,11 +6,11 @@ import DashboardHome from "../components/Dashboard/DashboardHome/DashboardHome";
 import DashboardPortfolio from "../components/Dashboard/DashboardPortfolio/DashboardPortfolio";
 import DashboardContact from "../components/Dashboard/DeshboardContact/DashboardContact";
 import Home from "../components/Home/Home";
-import Nathing from "../components/Nothing/N0thing";
+import Nothing from "../components/Nothing/Nothing";
 import Product from "../components/Product/Product";
 import {createBrowserRouter,} from "react-router-dom";
 
-const router = createBrowserRouter([
+const Router = createBrowserRouter([
     {
       path: "/",
       element: <App />,
@@ -32,7 +32,7 @@ const router = createBrowserRouter([
         },
         {
           path: "*",
-          element: <Nathing />
+          element: <Nothing />
         }
   
       ]
@@ -70,4 +70,4 @@ const router = createBrowserRouter([
   
 ]);
 
-export default router;
+export default Router;
